@@ -1,0 +1,25 @@
+{
+  "name": "ggpushf",
+  "version": "1.0.0",
+  "description": "Git push force shortuct that automatically infers the current branch",
+  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
+  "repository": "johnotander/ggpushf",
+  "license": "MIT",
+  "bin": "ggpushf.sh",
+  "files": [
+    "ggpushf.sh"
+  ],
+  "keywords": [
+    "cli-app",
+    "git",
+    "push",
+    "ggpushf",
+    "sh"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "git-current-branch": "^1.0.3"
+  }
+}
