@@ -1,4 +1,4 @@
-# ggpush
+# ggpushf
 
 Git push force shortcut that automatically infers the current branch, it also doesn't allow force pushing to `master`. A bash script bundled with npm.
 
