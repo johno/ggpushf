@@ -6,5 +6,5 @@ if [ "$currBranch" = "master" ]; then
   echo 'Cannot force push master'
   exit 1
 else
-  git push origin $currBranch
+  git push -f origin $currBranch
 fi
